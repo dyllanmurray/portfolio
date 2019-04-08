@@ -115,12 +115,10 @@ header.main_nav{
 }
 
 
-/* Images and Media
---------------------------------------------------- */
+/* Images and Media */
 img{max-width: 100%; margin-top: 7px}
 img.avatar{
     border-radius: 400px;
-    /* border: 5px solid #fff; */
 }
 
 img.rounded{
@@ -137,8 +135,7 @@ iframe {
     opacity:.8;
     margin-top:0;
 }
-/* Footer
---------------------------------------------------- */
+
 ul.social{
     display:block;
     margin: 5% 0;
@@ -165,19 +162,15 @@ p.copyright{
     color: #666;
     font-size: 1em;
 }
-
-/* Media Queries
---------------------------------------------------- */
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical 
 }
 
 input[type=submit] {
@@ -193,7 +186,6 @@ input[type=submit] {
     border-radius: 5px;
     background-color: rgb(179, 196, 179);
     padding: 20px;
-    /* width: 1000px; */
 }
 
 h3{
