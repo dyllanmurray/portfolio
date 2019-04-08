@@ -34,8 +34,9 @@
     color: #B37C57;
 }
 
-.portfolio-header{margin-top: 5em;
-    text-align: left;
+.portfolio-header{
+    /* margin-top: 5em; */
+    text-align: center;
 }
 
 .contact-header{
@@ -234,4 +235,9 @@ input[type=submit] {
     background-color: rgb(179, 196, 179);
     padding: 20px;
     /* width: 1000px; */
+}
+
+h3{
+    text-align: center
+
 }
