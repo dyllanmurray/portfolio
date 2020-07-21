@@ -92,9 +92,9 @@ header.main_nav{
 }
 /*Create a horizontal list with spacing*/
 #menuitems {
-    display: inline-block;
-    margin: none;
-    margin-bottom: 3px;
+    display: table-cell;
+    margin: 1px;
+    padding: 3px;
 
 }
 
@@ -106,8 +106,9 @@ header.main_nav{
     line-height: 50px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
-    background: rgb(181, 204, 181);
-    text-decoration: none;
+    background: rgb(119,136,153);
+    padding: 5px;
+    text-decoration: dotted;
 }
 /*Hover state for top level links*/
 #menuitems:hover a {
